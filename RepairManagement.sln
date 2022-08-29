@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepairManagement.API", "RepairManagement.API\RepairManagement.API.csproj", "{133E02E8-9F58-4419-B62C-22C92BAE03ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133E02E8-9F58-4419-B62C-22C92BAE03ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{133E02E8-9F58-4419-B62C-22C92BAE03ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{133E02E8-9F58-4419-B62C-22C92BAE03ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{133E02E8-9F58-4419-B62C-22C92BAE03ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2A10D58-DF4E-4AE1-BF28-890E33C0B2FC}
+	EndGlobalSection
+EndGlobal
