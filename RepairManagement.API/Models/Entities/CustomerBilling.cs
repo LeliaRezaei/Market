@@ -3,7 +3,7 @@
     public class CustomerBilling: BaseEntity
 
     {
-        public int TypeOfService { get; set; }
-        public int PaymentMethod { get; set; }
+        public string TypeOfService { get; set; }
+        public string PaymentMethod { get; set; }
     }
 }

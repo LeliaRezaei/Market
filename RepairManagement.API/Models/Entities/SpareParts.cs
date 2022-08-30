@@ -2,7 +2,7 @@
 {
     public class SpareParts : BaseEntity// YADAKY
     {
-        public int NamePiece { get; set; }
+        public string NamePiece { get; set; }
         public int Numeration { get; set; }
     }
 }
