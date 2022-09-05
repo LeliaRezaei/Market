@@ -1,8 +1,11 @@
 ﻿namespace RepairManagement.API.Models.Entities
 {
-    public class TypeOfService: SpareParts
+    public class TypeOfService : BaseEntity
     {
-        public string Repairs { get; set; }
-       
+        public int RepairId { get; set; }
+        public string Repair { get; set; }
+        public int SparePartId { get; set; }
+        public int SparePart { get; set; }
+
     }
 }

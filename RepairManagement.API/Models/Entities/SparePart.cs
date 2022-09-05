@@ -1,8 +1,8 @@
 ﻿namespace RepairManagement.API.Models.Entities
 {
-    public class SpareParts : BaseEntity// YADAKY
+    public class SparePart : BaseEntity
     {
         public string NamePiece { get; set; }
-        public int Numeration { get; set; }
+        public int Number { get; set; }
     }
 }
