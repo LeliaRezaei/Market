@@ -1,0 +1,36 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace RepairManagement.API.Migrations
+{
+    public partial class Billings : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            _ = migrationBuilder.CreateTable(
+                name: "Billings",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TypeOfServiceId = table.Column<int>(type: "int", nullable: false),
+                    TypeOfService = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaymentMethodId = table.Column<int>(type: "int", nullable: false),
+                    PaymentMethod = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreationDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ModificationDate = table.Column<DateTime>(type: "datetime2", nullable: true)
+                },
+                constraints: table =>
+                {
+                    _ = table.PrimaryKey("PK_Billings", x => x.Id);
+                });
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            _ = migrationBuilder.DropTable(
+                name: "Billings");
+        }
+    }
+}
