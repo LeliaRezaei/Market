@@ -6,7 +6,7 @@
         public string LastName { get; set; }
         public int Phone { get; set; }
         public int BillingId { get; set; }
-        public string Billing { get; set; }
+        public Billing Billing { get; set; }
 
     }
 }

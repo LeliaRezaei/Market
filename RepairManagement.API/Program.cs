@@ -15,7 +15,6 @@ builder.Services.AddDbContextFactory<DataContext>(
 
 
 
-
 var
 
     app = builder.Build();

@@ -3,7 +3,7 @@
     public class CustomerDevice : BaseEntity
     {
         public int CustomerId { get; set; }
-        public string Customer { get; set; }
+        public Customer Customer { get; set; }
         public int ProductCode { get; set; }
 
     }
